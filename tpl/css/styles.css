@@ -1,0 +1,39 @@
+body {
+    margin: 10px;
+    padding: 0;
+}
+
+#regForm,
+#regForm div div {
+    width: 300px;
+}
+
+#regForm div div {
+    margin-top: 5px;
+}
+
+#regForm div div span,
+.error {
+    color: #FF0000;
+}
+
+.success {
+    color: green;
+}
+
+.loading {
+    background: url("../images/ajax-loader.gif") no-repeat;
+    width: 32px;
+    height: 32px;
+}
+
+#regForm div div,
+#regForm,
+input {
+    float: left;
+}
+
+input[type="submit"] {
+    clear: both;
+    margin-top: 15px;
+}
